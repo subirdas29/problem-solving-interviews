@@ -2,13 +2,13 @@
 
 //? Create an array of objects, each representing a person with properties like name, age, and gender. Write a function to filter out all females and then map the remaining people to an array of names. Print the final result.
 
-// interface IPerson {
-//     name:string,
-//     age:number,
-//     gender: string
-// }
+interface IAllPerson {
+    name:string,
+    age:number,
+    gender: string
+}
 
-const persons = [
+const persons:IAllPerson[] = [
     {
         name:'Joy',
         age: 26,

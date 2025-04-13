@@ -8,7 +8,7 @@ interface IBooks {
     year: number
 }
 
-const books = [
+const books:IBooks[] = [
     {
         title:'Tree',
         author:'Mr. Joy',
@@ -26,7 +26,7 @@ const books = [
     },
 ]
 
-const booksTitle = (books)=>{
+const booksTitle = (books:IBooks[]):string[]=>{
    
     const bookTitle = books.map((book)=>book.title)
     return bookTitle
