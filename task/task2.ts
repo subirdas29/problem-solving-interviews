@@ -2,6 +2,12 @@
 
 //? Create an array of objects representing books with properties like title, author, and year. Write a function that takes the array and returns a new array with only the book titles. Print the result.
 
+interface IBooks {
+    title:string,
+    author:string,
+    year: number
+}
+
 const books = [
     {
         title:'Tree',
